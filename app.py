@@ -30,6 +30,14 @@ GAMES = {
 
 # Page configurations
 PAGES = {
+    "Camp + Media_source + Geo + Date": {
+        "groupings": "c,pid,geo,date",
+        "description": "Data grouped by Campaign, Publisher ID, Geography, and Date"
+    },
+    "Camp + Media_source + Date": {
+        "groupings": "c,pid,date",
+        "description": "Data grouped by Campaign, Publisher ID, and Date"
+    },
     "Camp + Media_source + Geo": {
         "groupings": "c,pid,geo",
         "description": "Data grouped by Campaign, Publisher ID, and Geography"
